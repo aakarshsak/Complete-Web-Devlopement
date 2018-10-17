@@ -1,0 +1,36 @@
+body {
+	background-image: url(image.jpg);
+	background-size: cover;
+	background-image-op
+}
+
+h1 {
+	color: green;
+	text-align: center;
+	cursor: pointer;
+	padding:20px;
+	text-transform: uppercase;
+	border: 5px solid blue;
+}
+
+h1 + p {
+	color: #0615ff;
+	text-align: left;
+	font-family: italic;
+	font-style: italic;
+	font-size: 110%;
+	line-height: 26px;
+	cursor: pointer;
+	border: 5px solid #6d4c41;
+}
+
+ul {
+	list-style:none;
+	padding:5px;
+	text-align:center;
+	border:5px dashed rgba(128, 92, 21 ,.8);
+}
+
+ul > li {
+	display: inline-block;
+}
