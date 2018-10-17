@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>Registration Page</title>
+	</head>
+
+	<body>
+
+		<h2><center>This is the regisstration page</center></h2><br><br><br>
+		<div>
+			<form method="POST">
+				First Name:<input type="text" name="firstName"><br>
+				Last Name:<input type="text" name="lastName"><br>
+				Email:<input type="email" name="email" required><br>
+				Password:<input type="password" name="password" required min="5"><br>
+				Sex:
+				<input type="radio" value="male" name="sex">Male
+				<input type="radio" value="female" name="sex">Female
+				<input type="radio" value="other" name="sex">Others<br>
+				Birthday:<input type="date" name="birthday"><br>
+				Pets:<br>
+				Cats<input type="checkbox" name="pets" value="cats">
+				Dogs<input type="checkbox" name="pets" value="dogs"><br>
+				Cars:
+				<select name="cars">
+					<option value="volvo">Volvo</option>
+					<option value="audi">Audi</option>
+				</select><br>
+				<input type="submit" value="Register">
+				<input type="reset" value="Reset">
+	 		</form>
+ 		</div>
+	</body>
+</html>
