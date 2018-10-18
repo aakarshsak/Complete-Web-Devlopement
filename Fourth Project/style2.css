@@ -1,0 +1,14 @@
+
+.body2 {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+h4 {
+	font-size:140%;
+}
+.reg_form {
+	margin-left:0px;
+	
+}

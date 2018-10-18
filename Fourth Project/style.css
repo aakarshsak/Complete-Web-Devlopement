@@ -1,0 +1,39 @@
+body,html {
+	height:100%;
+	margin:0px;
+}
+
+.bg {
+	height:100%;
+	margin:0px;
+	background-image:url(front.jpg);
+	background-size:cover;
+	background-position: center;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.sm1,.sm2,.sm3,.sm4,.sm5,.sm6,.sm7,.sm8,.sm9,.sm10 {
+	flex-grow:1;
+}
+.btn-custom {
+	width:200px;
+	height:50px;
+	background-color: #bc4434;
+	color:white;
+	border-radius:10px;
+	border:0px;
+	flex-grow:1;
+	font-size:150%;
+	margin-top:400px; 
+	transition: all 1.5s;
+}
+.btn-custom:hover {
+	transform: scale(1.2);
+	border:2px solid #bc4434;
+	background-color:white;
+	color:#bc4434;
+}
+
+

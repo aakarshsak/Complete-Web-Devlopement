@@ -35,6 +35,7 @@ h1 {
 .upper_body > .eyes {
 	display: flex;
 	padding-top:100px;
+	justify-content:space-around;
 }
 
 .upper_body > .eyes > .left_eye {
@@ -42,8 +43,8 @@ h1 {
 	height: 20px;
 	background-color: white;
 	border-radius: 100px;
-	position: relative;
-	left: 40px;
+	/* position: relative;
+	left: 40px; */
 }
 
 .upper_body > .eyes > .right_eye {
@@ -51,8 +52,8 @@ h1 {
 	height: 20px;
 	background-color: white;
 	border-radius: 100px;
-	position: relative;
-	left: 120px;
+	/* position: relative;
+	left: 120px; */
 }
 
 .middle {
