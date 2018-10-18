@@ -1,9 +1,26 @@
-h1 {
+.heading {
+	display:flex;
+	justify-content: center;
+}
+
+.heading > h1 {
 	font-size: 2em;
 	font-family:fantasy;
 	font-style:italic;
+	margin-top:0px;
 	text-decoration: underline;
-	color:#442844;
+	color:#0032ff;
+	margin-right: 10px
+
+}
+
+
+.heading > a {
+	order:1;
+}
+.heading > a > img {
+	width:40px;
+	height:40px;
 }
 
 .flextest {
@@ -14,7 +31,7 @@ h1 {
 
 .flextest > img {
 	width:400px;
-	height:300;
+	height:350px;
 	transition: all 1s;
 	margin:10px 0px;
 }
@@ -22,3 +39,4 @@ h1 {
 .flextest > img:hover {
 	transform:scale(1.1);
 }
+
