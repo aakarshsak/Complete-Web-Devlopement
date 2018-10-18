@@ -1,0 +1,24 @@
+h1 {
+	font-size: 2em;
+	font-family:fantasy;
+	font-style:italic;
+	text-decoration: underline;
+	color:#442844;
+}
+
+.flextest {
+	display:flex;
+	flex-wrap:wrap;
+	justify-content: space-around;
+}
+
+.flextest > img {
+	width:400px;
+	height:300;
+	transition: all 1s;
+	margin:10px 0px;
+}
+
+.flextest > img:hover {
+	transform:scale(1.1);
+}
