@@ -1,0 +1,99 @@
+h3 {
+	text-align: center;
+	font-size:3em;
+}
+#android {
+	display:flex;
+	align-items:center;
+	flex-direction:column;
+}
+
+#android #head {
+	background-color: #4fc3f7;
+	width:200px;
+	height:180px;
+	border-top-left-radius: 200px;
+	border-top-right-radius: 200px;
+	margin-bottom: 10px;
+	display:flex;
+	align-items:center;
+	justify-content: center;
+	transition: all 3s;
+}
+
+#android #head:hover {
+	width:290px;
+	display:flex;
+	align-items:center;
+	justify-content: center;
+}
+
+#android #head #eyes{
+	display: flex;
+	justify-content: center;
+}
+
+
+#android #head #left_eye{
+	 background-color: white;
+	 width:15px;
+	 height:15px;
+	 margin-right: 30px;
+	 border-radius: 15px;
+}
+#android #head #right_eye{
+	 background-color: white;
+	 width:15px;
+	 height:15px;
+	 margin-left: 30px;
+	 border-radius: 15px;
+}
+
+#android #body {
+	display:flex;
+	flex-direction:row;
+}
+#android #body #left_arm{
+	background-color: #4fc3f7;
+	width:40px;
+	height:160px;
+	margin-right: 5px;
+	border-radius:50px 50px;
+}
+
+#android #body #torso{
+	background-color: #4fc3f7;
+	width:200px;
+	height:240px;
+	border-bottom-left-radius: 60px;
+	border-bottom-right-radius: 60px;
+}
+
+#android #body #right_arm{
+	background-color: #4fc3f7;
+	width:40px;
+	height:160px;
+	margin-left: 5px;
+	border-radius:50px 50px;
+}
+
+#android #legs {
+	display:flex;
+	flex-direction:row;
+	align-content:space-around;
+}
+#android #legs #left_leg{
+	background-color: #4fc3f7;
+	width:40px;
+	height:160px;
+	margin-left: 5px;
+	border-radius:50px 50px;
+}
+
+#android #legs #right_leg{
+	background-color: #4fc3f7;
+	width:40px;
+	height:160px;
+	margin-left: 5px;
+	border-radius:50px 50px;
+}
