@@ -14,7 +14,7 @@ h3 {
 	height:180px;
 	border-top-left-radius: 200px;
 	border-top-right-radius: 200px;
-	margin-bottom: 10px;
+	margin-bottom: 5px;
 	display:flex;
 	align-items:center;
 	justify-content: center;
@@ -23,9 +23,7 @@ h3 {
 
 #android #head:hover {
 	width:290px;
-	display:flex;
-	align-items:center;
-	justify-content: center;
+	transition: 1s ease-in-out;
 }
 
 #android #head #eyes{
@@ -80,20 +78,29 @@ h3 {
 #android #legs {
 	display:flex;
 	flex-direction:row;
-	align-content:space-around;
+	align-content:space-between;
 }
-#android #legs #left_leg{
+#android #legs #left_leg {
 	background-color: #4fc3f7;
 	width:40px;
-	height:160px;
-	margin-left: 5px;
-	border-radius:50px 50px;
+	height:60px;
+	margin-right: 8px;
+	margin-top: -15px;
+	border-bottom-left-radius:50px; 
+	border-bottom-right-radius:50px;
+	transition: all 1;
+}
+
+#android #legs #left_leg:hover {
+	transform: rotate(15deg);
 }
 
 #android #legs #right_leg{
 	background-color: #4fc3f7;
 	width:40px;
-	height:160px;
-	margin-left: 5px;
-	border-radius:50px 50px;
+	height:50px;
+	margin-left: 8px;
+	margin-top: -5px;
+	border-bottom-left-radius:50px; 
+	border-bottom-right-radius:50px; 
 }
